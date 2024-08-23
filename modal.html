@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Modal</title>
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <!--Modal que fica invisível, só abre ao clicar no botão-->
+    <main class="container">
+        <div class="modal">
+            <h2>Título</h2>
+            <span>
+                Aqui você insere seu texto
+            </span>
+            <button class="btn-close" onclick="onClose()">Fechar</button>
+        </div>
+    </main>
+    <!--Botão visível que vai abrir o modal-->
+    <button class="btn-open" onclick="onOpen()">Abrir Modal</button>
+    <script src="modal.js"></script>
+</body>
+</html>

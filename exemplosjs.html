@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Utilizando innerHTML</h3>
+    <p id="area"></p>
+    <script>
+        document.getElementById("area").innerHTML = 10+10;
+    </script>
+    <hr>
+    <h3>Utilizando document.write</h3>
+    <script>
+        document.write(10+10);
+    </script>
+    <hr>
+    <h3>document.write com Botão</h3>
+    <button type="button" onclick="document.write(4*5)">Clique</button>
+    <hr>
+    
+    <h3>Utilizando alert</h3>
+    <script>
+        function funcao01(){
+            alert(10+12);
+        }
+    </script>
+    <input type="button" onclick="funcao01()" value="Clique">
+</body>
+</html>
